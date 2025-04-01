@@ -1,0 +1,172 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f9ff, #e6f0ff);
+    color: #2d3748; /* Gris foncé pour le texte */
+}
+
+header {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour la navigation dans le header */
+header nav ul {
+    list-style: none; /* Supprime les puces des listes */
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les espacements */
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+header h1 {
+    color: #fff; /* Couleur du texte */
+}
+header nav ul li {
+    margin: 0 1rem; /* Espacement entre les éléments */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #fff; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s; /* Transition pour le changement de couleur */
+}
+
+header nav ul li a:hover {
+    color: #f4a261; /* Couleur au survol */
+}
+
+/* Style pour les sections principales */
+section {
+    padding: 20px; /* Espacement interne */
+    margin: 20px auto; /* Marges automatiques pour centrer */
+    background-color: white; /* Couleur de fond */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 800px; /* Largeur maximale */
+}
+
+/* Style pour les titres */
+h1, h2 {
+    text-align: center; /* Centrer les titres */
+    color: #333; /* Couleur du texte */
+}
+
+h2 {
+    font-size: 1.8rem; /* Taille de police */
+    color: #002bb8; /* Couleur spécifique */
+    text-decoration: underline; /* Soulignement */
+}
+
+/* Style pour les listes */
+ul {
+    list-style-type: square; /* Type de puce */
+    margin-left: 20px; /* Décalage à gauche */
+}
+
+ul li {
+    margin: 5px 0; /* Espacement entre les éléments */
+}
+
+/* Style pour la section "À propos" */
+.about-container {
+    display: flex; /* Affichage en flexbox */
+    align-items: center; /* Alignement vertical */
+    max-width: 1000px; /* Largeur maximale */
+    margin: 2rem auto; /* Marges automatiques pour centrer */
+    background-color: #fff; /* Couleur de fond */
+    padding: 2rem; /* Espacement interne */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.about-image {
+    flex: 1; /* Prend 1 part de l'espace disponible */
+    text-align: center; /* Centre le contenu */
+}
+
+.about-image img {
+    width: 150px; /* Largeur de l'image */
+    height: 150px; /* Hauteur de l'image */
+    border-radius: 50%; /* Forme circulaire */
+    border: 2px solid #f4a261; /* Bordure colorée */
+}
+
+.about-text {
+    flex: 2; /* Prend 2 parts de l'espace disponible */
+    margin-left: 2rem; /* Espacement à gauche */
+}
+
+.about-text h1 {
+    font-size: 2.5rem; /* Taille de police */
+    color: #333; /* Couleur du texte */
+}
+
+.about-text h2 {
+    font-size: 1.8rem; /* Taille de police */
+    color: #555; /* Couleur du texte */
+    margin-bottom: 1rem; /* Espacement en bas */
+}
+
+.about-text p {
+    font-size: 1rem; /* Taille de police */
+    margin: 0.5rem 0; /* Espacement vertical */
+}
+
+/* Style pour le bouton de téléchargement */
+.download {
+    text-align: center; /* Centre le contenu */
+    margin-top: 2rem; /* Espacement en haut */
+}
+
+.download a {
+    display: inline-block; /* Affichage en bloc inline */
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 0.8rem 1.5rem; /* Espacement interne */
+    border-radius: 4px; /* Coins arrondis */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+
+.download a:hover {
+    background-color: #f4a261; /* Couleur au survol */
+}
+
+/* Style pour le footer */
+footer {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centre le contenu */
+    padding: 1rem 0; /* Espacement interne */
+    margin-top: 2rem; /* Espacement en haut */
+}
+
+footer h3 {
+    font-size: 1.2rem; /* Taille de police */
+}
+
+footer p {
+    font-size: 1rem; /* Taille de police */
+    margin: 0.2rem 0; /* Espacement vertical */
+}
+
+/* Style pour les blocs de code */
+pre {
+    background-color: #f4f4f4; /* Couleur de fond */
+    padding: 1rem; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    overflow-x: auto; /* Barre de défilement horizontal si nécessaire */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+pre code {
+    font-family: 'Courier New', Courier, monospace; /* Police pour le code */
+    color: #333; /* Couleur du texte */
+}

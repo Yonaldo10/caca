@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espacements internes par défaut */
+    background-color: #f4f4f4; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+}
+
+/* Navigation */
+/* Style pour l'en-tête de la page */
+header {
+    background: #222; /* Couleur de fond sombre */
+    padding: 15px 0; /* Espacement interne en haut et en bas */
+    text-align: center; /* Centre le texte */
+}
+ h1 {
+    margin: 0; /* Supprime les marges */
+    color: rgb(20, 20, 20); /* Couleur du texte */
+    font-size: 30px;
+
+}
+/* Style pour la liste de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime les espacements internes */
+}
+/* Style pour les éléments de la liste de navigation */
+nav ul li {
+    display: inline; /* Affiche les éléments en ligne */
+    margin: 0 15px; /* Espacement entre les éléments */
+}
+/* Style pour les liens de navigation */
+nav ul li a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Sections */
+/* Style pour les sections de contenu */
+section {
+    padding: 50px; /* Espacement interne */
+    text-align: center; /* Centre le texte */
+    background: white; /* Couleur de fond */
+    margin: 20px; /* Espacement externe */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Accueil */
+/* Style pour l'image d'accueil */
+.accueil-image {
+    width: 200px; /* Largeur de l'image */
+    vertical-align: middle; /* Aligne verticalement au milieu */
+    margin-right: 10px; /* Espacement à droite */
+}
+
+/* Projets */
+/* Style pour les projets */
+.project {
+    display: flex; /* Utilise le modèle flexbox */
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    margin-top: 20px; /* Espacement en haut */
+}
+/* Style pour les informations des projets */
+.project-info {
+    max-width: 500px; /* Largeur maximale */
+    margin-right: 20px; /* Espacement à droite */
+    text-align: left; /* Aligne le texte à gauche */
+}
+/* Style pour les images des projets */
+.project-img img {
+    width: 300px; /* Largeur de l'image */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* CV */
+/* Style pour le lien du CV */
+.cv-frame a {
+    display: inline-block; /* Affiche en bloc en ligne */
+    padding: 10px 15px; /* Espacement interne */
+    background: #222; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    margin-top: 15px; /* Espacement en haut */
+}
+/* Style pour le texte du CV */
+.cv-text {
+    text-align: left; /* Aligne le texte à gauche */
+    max-width: 600px; /* Largeur maximale */
+    margin: 20px auto; /* Espacement externe centré */
+}
+
+/* Footer */
+/* Style pour le pied de page */
+footer {
+    background: #222; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    padding: 20px 0; /* Espacement interne en haut et en bas */
+    margin-top: 30px; /* Espacement en haut */
+}
+/* Style pour la liste d'informations de contact */
+#contact-info ul {
+    padding: 0; /* Supprime les espacements internes */
+}
+/* Style pour les éléments de la liste d'informations de contact */
+#contact-info ul li {
+    margin: 5px 0; /* Espacement vertical */
+    color: white; /* Couleur du texte */
+}
+/* Style pour les liens dans les informations de contact */
+#contact-info ul li a {
+    margin: 5px 0; /* Espacement vertical */
+    color: yellow; /* Couleur du texte */
+}
