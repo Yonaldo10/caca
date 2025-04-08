@@ -146,10 +146,3 @@ footer {
     color: white;
     margin-top: 40px;
 }
-
-header nav ul li a {
-    text-decoration: none; /* Supprime le soulignement des liens */
-    color: #fff; /* Couleur du texte */
-    font-weight: bold; /* Texte en gras */
-    transition: color 0.3s; /* Transition pour le changement de couleur */
-}
